@@ -11,6 +11,7 @@ EXCELLENT_SCORE = 90
 PASSABLE_SCORE = 50
 
 def main():
+    """Run the score status program"""
     user_score = float(input("Enter Score: "))
     user_result = determine_score_result(user_score)
     print(f"User score {user_score:.1f} is {user_result}")
@@ -22,6 +23,7 @@ def main():
     print(f"Random: {random_score} = {random_result}")
 
 def determine_score_result(score):
+    """Determine the result string for a given score"""
     if score < MIN_SCORE or score > MAX_SCORE:
         return "Invalid score"
     if score >= EXCELLENT_SCORE:
