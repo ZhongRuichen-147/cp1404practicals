@@ -3,6 +3,7 @@ CP1404/CP5632 - Practical
 Program to determine score status
 """
 
+
 import random
 
 MIN_SCORE = 0
