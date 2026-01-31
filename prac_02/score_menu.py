@@ -1,5 +1,3 @@
-from traceback import print_stack
-
 MIN_SCORE = 0
 MAX_SCORE = 100
 EXCELLENT_SCORE = 90
