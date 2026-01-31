@@ -1,5 +1,6 @@
 MIN_LENGTH = 8
 
+
 def main():
     """Run the password check program"""
     password = get_password(MIN_LENGTH)
